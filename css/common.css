@@ -156,6 +156,9 @@ ol，li {
 .head-top ul li a:hover {
   color: #00628b;
 }
+.head-top ul li:last-child {
+  padding-right: 0;
+}
 .head-top ul li.active a {
   color: #00628b;
 }
@@ -187,8 +190,71 @@ ol，li {
   color: #fff;
 }
 .head-bottom-index {
-  height: 140px;
+  position: relative;
+  height: 560px;
+}
+.head-bottom-index .head-slide {
   background: #3a3d3f;
+  height: 140px;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.head-bottom-index .content {
+  height: 140px;
+}
+.head-bottom-index .content .item-left {
+  float: left;
+  padding-top: 20px;
+}
+.head-bottom-index .content .item-left a {
+  float: left;
+  margin-right: 10px;
+}
+.head-bottom-index .content .item-left span {
+  float: left;
+  color: #fefefe;
+}
+.head-bottom-index .content .item-left span h6 {
+  font-size: 18px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+.head-bottom-index .content .item-left span h6::before {
+  display: block;
+  content: "";
+  width: 34px;
+  height: 2px;
+  background: #fefefe;
+  top: 36px;
+  left: 0;
+  position: relative;
+}
+.head-bottom-index .content .item-left span span {
+  margin-top: 21px;
+  font-size: 12px;
+}
+.head-bottom-index .content .item-right {
+  float: right;
+  width: 215px;
+}
+.head-bottom-index .content .item-right a {
+  float: left;
+  margin-left: 51px;
+  color: #fefefe;
+  padding-top: 20px;
+}
+.head-bottom-index .swiper-black {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.head-bottom-index .swiper-black img {
+  width: 100%;
 }
 .foot-head {
   width: 100%;
@@ -249,7 +315,7 @@ ol，li {
   position: relative;
   top: 49px;
   margin: 0 auto;
-  left: -97px;
+  left: -95px;
   width: 32px;
 }
 .foot-content .foot-list .foot-item:nth-child(1) li:first-child a,

@@ -40,6 +40,9 @@ ul, ol，li{ list-style: none; }
                 color: #00628b
             }
         }
+        li:last-child{
+            padding-right: 0;
+        }
         li.active{
             a{
                 color: #00628b
@@ -77,9 +80,73 @@ ul, ol，li{ list-style: none; }
 } 
 //首页公共
 .head-bottom-index{
-    height: 140px;
-    background: #3a3d3f;
-    
+    position: relative;
+    height: 560px;
+    .head-slide{
+        background: #3a3d3f;
+        height: 140px;
+        opacity: 0.9;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .content{
+        height: 140px;
+        .item-left{
+            float: left;
+            padding-top: 20px;
+            a{
+                float: left;
+                margin-right: 10px;
+            }
+            span{
+                float: left;
+                color: #fefefe;
+                
+                h6{
+                    font-size: 18px;
+                    margin-top: -5px;
+                    margin-bottom: 20px;
+                    &::before{
+                        display: block;
+                        content: "";
+                        width: 34px;
+                        height: 2px;
+                        background: #fefefe;
+                        top: 36px;
+                        left: 0;
+                        position: relative;
+                    }
+                }
+                span{
+                    margin-top: 21px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .item-right{
+            float: right;
+            width: 215px;
+            a{
+                float: left;
+                margin-left: 51px;
+                color: #fefefe;
+                padding-top: 20px;
+            }
+        }
+       
+    }
+    .swiper-black{
+        z-index: 1;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        img{
+            width:100%;
+        }
+    }
 }
 // 公共底部
 .foot-head{
@@ -137,7 +204,7 @@ ul, ol，li{ list-style: none; }
                     position: relative;
                     top: 49px;
                     margin: 0 auto;   
-                    left:-97px;
+                    left:-95px;
                     width: 32px; 
                 }
                 a{
