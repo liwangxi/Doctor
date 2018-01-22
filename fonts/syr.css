@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "syr";
+  src: url("syr.woff2") format("woff2"),
+       url("syr.woff") format("woff"),
+       url("syr.ttf") format("truetype"),
+       url("syr.eot") format("embedded-opentype"),
+       url("syr.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
