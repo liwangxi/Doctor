@@ -2,12 +2,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 strong, sub, sup, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
 tfoot, thead, tr, th, td ,textarea { margin:0; padding:0; box-sizing: border-box }
 address,cite,dfn,em,i {font-style:normal;}
-body {font-size: 16px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';}
+body {font-size: 14px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';}
 table { border-collapse:collapse; border-spacing:0; }
 h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
 button,input,select,textarea{font-size:100%;}
 fieldset,img{border:0;}
-a { text-decoration: none; color: #666; background: none }
+a { text-decoration: none; color:#333;  background: none }
 ul, ol，li{ list-style: none; }
 :focus{ outline:none;}
 .clearfix{ clear: both; content: ""; display: block; overflow: hidden }
@@ -31,15 +31,18 @@ ul, ol，li{ list-style: none; }
         color: #fff;
         li{
             float: left;
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+            a{
+                font-size: 20px;
+            }
             a:hover{
-                color: #006289
+                color: #00628b
             }
         }
         li.active{
             a{
-                color: #006289
+                color: #00628b
             }
         }
     }
@@ -48,7 +51,6 @@ ul, ol，li{ list-style: none; }
 .head-bottom{
     height: 140px;
     background: #2f3334;
-    color: #acadaf;
     .item-left{
         float: left;
         font-size: 20px;
@@ -69,7 +71,16 @@ ul, ol，li{ list-style: none; }
         float: right;
         margin-top: 61px;
     }
+    a{
+        color: #fff;
+    }
 } 
+//首页公共
+.head-bottom-index{
+    height: 140px;
+    background: #3a3d3f;
+    
+}
 // 公共底部
 .foot-head{
     width: 100%;
@@ -103,6 +114,9 @@ ul, ol，li{ list-style: none; }
             margin-right: 60px;
             li{
                 padding: 5px 0;
+                i{
+                    font-size: 14px;
+                }
             }
         }
         .foot-item:nth-child(2){
@@ -112,7 +126,7 @@ ul, ol，li{ list-style: none; }
         .foot-item:nth-child(1),.foot-item:nth-child(3){
             li:first-child{
                 color: #09a1e2;
-                font-size: 22px;
+                font-size: 20px;
                 padding: 10px 0;
                 margin-bottom: 22px;
                 &::before{
@@ -121,9 +135,9 @@ ul, ol，li{ list-style: none; }
                     height: 1px;
                     background-color: #09a1e2;
                     position: relative;
-                    top: 55px;
+                    top: 49px;
                     margin: 0 auto;   
-                    left:-108px;
+                    left:-97px;
                     width: 32px; 
                 }
                 a{
@@ -135,11 +149,11 @@ ul, ol，li{ list-style: none; }
             margin-left: 316px;
             li:first-child::before{
                 width: 32px;
-                left: -27px;
+                left: -23px;
             }
         }
         a{
-            color: #fff;
+            color: #b1bbbf;
         }
     }
     
@@ -150,6 +164,9 @@ ul, ol，li{ list-style: none; }
     border-top: 1px solid #4f5354;
     text-align: center;
     padding:20px 0;
+    a{
+        color: #b1bbbf;
+    }
 }
 //内容公共底部
 section .item{
