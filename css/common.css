@@ -177,7 +177,7 @@ ol，li {
   width: 35px;
   height: 1px;
   background-color: #acadaf;
-  left: -22px;
+  left: -37%;
   position: relative;
   top: 45px;
   margin: 0 auto;
@@ -350,6 +350,7 @@ section .item p {
   text-align: center;
   padding: 20px;
   margin-bottom: 28px;
+  color: #4b4b4b;
 }
 section .item p::before {
   display: block;
@@ -446,4 +447,39 @@ section .item .item-del li.black-img a {
 section .item .item-del li.black-img a img {
   width: 100%;
   height: 100%;
+}
+.content-title {
+  text-align: center;
+  color: #4b4b4b;
+}
+.content-title h4 {
+  font-size: 46px;
+  margin-top: 92px;
+}
+.content-title h5 {
+  font-size: 24px;
+}
+.content-title p {
+  font-size: 17px;
+  color: #333;
+  margin-top: 32px;
+  text-align: left;
+  text-indent: 2em;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.content-title img {
+  margin-top: 32px;
+  margin-bottom: 55px;
+}
+.item-del-ul {
+  padding: 40px;
+  border: 1px solid #b2b2b2;
+  width: 100%;
+  color: #000;
+  font-size: 13px;
+}
+.item-del-ul li {
+  padding: 5px 0;
+  letter-spacing: 2px;
 }
