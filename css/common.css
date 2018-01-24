@@ -184,7 +184,7 @@ ol，li {
 }
 .head-bottom .item-right {
   float: right;
-  margin-top: 61px;
+  margin-top: 66px;
 }
 .head-bottom a {
   color: #fff;
@@ -348,7 +348,7 @@ section .item {
 section .item p {
   font-size: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 21px;
   margin-bottom: 28px;
   color: #4b4b4b;
 }
@@ -471,6 +471,8 @@ section .item .item-del li.black-img a img {
 .content-title img {
   margin-top: 32px;
   margin-bottom: 55px;
+  width: 100%;
+  height: auto;
 }
 .item-del-ul {
   padding: 40px;
