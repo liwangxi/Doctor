@@ -132,6 +132,16 @@ ol，li {
   margin: auto;
 }
 /*公共头部 */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 100;
+}
+section {
+  margin-top: 251px;
+}
 .head-top {
   background: #fff;
 }
@@ -484,4 +494,67 @@ section .item .item-del li.black-img a img {
 .item-del-ul li {
   padding: 5px 0;
   letter-spacing: 2px;
+}
+section .content {
+  position: relative;
+}
+.content-left {
+  width: 797px;
+  overflow: hidden;
+  float: left;
+}
+.content-left .content-left-item {
+  width: 100%;
+  margin-top: 50px;
+}
+.content-left .content-left-item h3 {
+  font-size: 24px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #adcbf9;
+}
+.content-left .content-left-item h3::after {
+  width: 50px;
+  content: '';
+  display: block;
+  height: 1px;
+  background: #4e75b0;
+  left: 0;
+  position: relative;
+  top: 18px;
+}
+.content-left .content-left-item p {
+  padding: 15px 0;
+  font-size: 14px;
+  color: #000;
+}
+.content-right {
+  width: 110px;
+  float: right;
+  text-align: left;
+  top: 304px;
+  position: fixed;
+}
+.content-right h3 {
+  font-size: 27px;
+  padding-bottom: 11px;
+}
+.content-right h3::after {
+  width: 34px;
+  content: '';
+  display: block;
+  height: 2px;
+  background: #939393;
+  left: 0;
+  position: relative;
+  top: 11px;
+}
+.content-right ul {
+  margin-top: 20px;
+}
+.content-right ul li {
+  padding: 13px 0;
+}
+.content-right ul li a {
+  font-size: 14px;
+  color: #000;
 }

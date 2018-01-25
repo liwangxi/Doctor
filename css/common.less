@@ -18,6 +18,16 @@ ul, ol，li{ list-style: none; }
 // 定义颜色变量
 
 /*公共头部 */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+}
+section{
+    margin-top: 251px;
+}
 .head-top{
     background: #fff;
     .head-img{
@@ -382,5 +392,72 @@ section .item{
     li{
         padding: 5px 0;
         letter-spacing: 2px;
+    }
+}
+//第二种类型的页面内容css样式
+section .content{
+    position: relative;
+}
+.content-left{
+    width: 797px;
+    overflow: hidden;
+    float: left;
+    .content-left-item{
+        width: 100%;
+        margin-top: 50px;
+        h3{
+            font-size: 24px;
+            padding-bottom: 17px;
+            border-bottom: 1px solid #adcbf9;
+            &::after{
+                width: 50px;
+                content: '';
+                display: block;
+                height: 1px;
+                background: #4e75b0;
+                left: 0;
+                position: relative;
+                top: 18px;
+            }
+        }
+        p{
+            padding: 15px 0;
+            font-size: 14px;
+            color: #000;
+        }
+    }
+}
+
+.content-right{
+    width: 110px;
+    float: right;
+    text-align: left;
+    top: 304px;
+    position: fixed;
+    h3{
+        font-size: 27px;
+        padding-bottom: 11px;
+        &::after{
+            width: 34px;
+            content: '';
+            display: block;
+            height: 2px;
+            background: #939393;
+            left: 0;
+            position: relative;
+            top: 11px;
+        }  
+    }
+    ul{
+        margin-top: 20px;
+        li{
+                padding: 13px 0;
+            a{
+                
+                font-size: 14px;
+                color: #000;
+            }
+            
+        }
     }
 }
