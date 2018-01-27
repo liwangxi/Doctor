@@ -8,6 +8,7 @@ function right() {
 $(document).ready(function(){
     right()
 })
-$(document).resize(function () {
+$(window).resize(function () {
     right()
+    console.log(1);
 })
