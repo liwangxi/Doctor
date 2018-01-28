@@ -5,10 +5,13 @@ function right() {
     let left = ($(window).width()-1150)/2
     $(".content-right").css("right",left);
 }
+function right1() {
+    let left = ($(window).width() - 1150) / 2
+    $(".list .item div").css("right", left);
+}
 $(document).ready(function(){
     right()
 })
 $(window).resize(function () {
     right()
-    console.log(1);
 })

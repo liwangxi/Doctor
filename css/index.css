@@ -1,3 +1,9 @@
+header {
+  position: static;
+}
+section {
+  margin-top: 0;
+}
 .tab-top {
   background: #fff;
   color: #4b4b4b;
@@ -78,4 +84,142 @@
 }
 .tab-top .tab-list a:nth-child(6):hover span {
   background: url(../img/jbjc2.png);
+}
+.tab-top .tab {
+  width: 100%;
+  background: #4e75af;
+}
+.tab-top .tab .tab-hover {
+  height: 40px;
+  width: 1150px;
+  background: #fff;
+  margin: auto;
+}
+.tab-top .tab .tab-hover span {
+  border-top: 1px solid #888888;
+  border-right: 1px solid #888;
+  height: auto;
+  line-height: 40px;
+  width: 16.66%;
+  float: left;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+.tab-top .tab .tab-hover span:hover {
+  background: #4e75af;
+  color: #fff;
+}
+.tab-top .tab .tab-hover .active {
+  background: #4e75af;
+  color: #fff;
+}
+.tab-top .tab .tab-hover span:last-child {
+  border-right: 0;
+}
+.tab-top .tab .tab-list {
+  width: 100%;
+}
+.tab-top .tab .tab-list .list {
+  width: 100%;
+  background: #404040;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+.tab-top .tab .tab-list .list .item {
+  float: left;
+  width: 50%;
+  color: #fff;
+}
+.tab-top .tab .tab-list .list .item div {
+  float: left;
+  background: #4e75af;
+  height: 310px;
+  width: 190px;
+  color: #fff;
+}
+.tab-top .tab .tab-list .list .item div h3 {
+  margin-top: 44px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.tab-top .tab .tab-list .list .item div h3::after {
+  content: '';
+  display: block;
+  width: 45px;
+  top: 20px;
+  height: 2px;
+  background: #fff;
+  left: 0;
+  position: relative;
+}
+.tab-top .tab .tab-list .list .item span {
+  margin-top: 44px;
+  display: inline-block;
+  width: 322px;
+  text-align: left;
+}
+.tab-top .tab .tab-list .list img {
+  float: left;
+  width: 50%;
+}
+.tab-top .tab .tab-list .active {
+  display: block;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 5px;
+  padding: 10px;
+}
+.swiper-pagination {
+  height: 100px;
+  background: #4e75af;
+  margin-top: 10px;
+}
+.swiper-slide img {
+  margin-bottom: 100px;
+}
+.swiper-pagination-bullet {
+  width: 120px;
+  height: 80px;
+  border-radius: 0;
+  background-repeat: no-repeat;
+}
+.swiper-pagination-bullet:nth-child(1) {
+  background: url("../img/zj_01.jpg");
+}
+.swiper-pagination-bullet:nth-child(2) {
+  background: url("../img/zj_02.jpg");
+}
+.swiper-pagination-bullet:nth-child(3) {
+  background: url("../img/zj_03.jpg");
+}
+.swiper-pagination-bullet:nth-child(4) {
+  background: url("../img/zj_04.jpg");
+}
+.swiper-pagination-bullet:nth-child(5) {
+  background: url("../img/zj_05.jpg");
+}
+.swiper-pagination-bullet:nth-child(6) {
+  background: url("../img/zj_06.jpg");
+}
+.swiper-pagination-bullet:nth-child(7) {
+  background: url("../img/zj_07.jpg");
+}
+.swiper-pagination-bullet:nth-child(8) {
+  background: url("../img/zj_08.jpg");
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 90%;
+}
+.section-bottom {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.section-bottom-item img {
+  margin-left: 30px;
 }
