@@ -558,6 +558,12 @@ section .content {
   font-size: 14px;
   color: #000;
 }
+.content-right ul li a:hover {
+  color: #00628b;
+}
+.content-right ul li a.active {
+  color: #00628b;
+}
 .case-list {
   font-family: "SimSun";
 }
@@ -573,7 +579,7 @@ section .content {
   padding-left: 36px;
 }
 .case-list li div span {
-  display: inline-block;
+  display: block;
   margin-top: 16px;
 }
 .content-left1 {
