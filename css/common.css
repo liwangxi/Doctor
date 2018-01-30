@@ -206,11 +206,12 @@ section {
 .head-bottom-index .head-slide {
   background: #3a3d3f;
   height: 140px;
-  opacity: 0.9;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 2;
+  display: none;
 }
 .head-bottom-index .content {
   height: 140px;

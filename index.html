@@ -31,7 +31,7 @@
                         <a href="">关于我们</a>
                     </li>
                     <li class="active">
-                        <a href="#">完整疗愈健康管理中心</a>
+                        <a href="#" class="hove">完整疗愈健康管理中心</a>
                     </li>
                     <li>
                         <a href="#">咨询</a>
@@ -369,6 +369,12 @@
     })
     $(".foot-head span").click(function () {
         $('html , body').animate({ scrollTop: 0 }, 'slow');
+    })
+    $(".hove").hover(function () {
+        $(".head-slide").slideDown();
+    })
+    $(".head-slide").mouseleave(function () {
+        $(this).slideUp();
     })
 </script>
 
