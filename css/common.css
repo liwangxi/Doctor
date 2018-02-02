@@ -257,6 +257,9 @@ section {
   color: #fefefe;
   padding-top: 20px;
 }
+.head-bottom-index .content .item-right a:hover {
+  color: #09a1e2;
+}
 .head-bottom-index .swiper-black {
   z-index: 1;
   width: 100%;
