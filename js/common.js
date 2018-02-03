@@ -15,3 +15,9 @@ $(document).ready(function(){
 $(window).resize(function () {
     right()
 })
+$(".hove").hover(function () {
+    $(".head-slide").slideDown();
+})
+$(".head-slide").mouseleave(function () {
+    $(this).slideUp();
+})
