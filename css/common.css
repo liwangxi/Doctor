@@ -201,7 +201,7 @@ section {
 }
 .head-bottom-index {
   position: relative;
-  height: 560px;
+  height: 540px;
 }
 .head-bottom-index .head-slide {
   background: #3a3d3f;
@@ -690,4 +690,20 @@ section .content {
   background: #09a1e2;
   color: #fff;
   border: 0;
+}
+.content-left-all .content-left {
+  display: none;
+}
+.content-left-all .active {
+  display: block;
+}
+.content-tab2,
+.content-tab3,
+.content-tab4,
+.content-tab5,
+.content-tab6,
+.content-tab7,
+.content-tab8,
+.content-tab9 {
+  margin-bottom: 200px;
 }
