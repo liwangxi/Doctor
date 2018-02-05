@@ -698,6 +698,7 @@ section .content {
 .content-left-all .active {
   display: block;
 }
+.content-tab1,
 .content-tab2,
 .content-tab3,
 .content-tab4,
