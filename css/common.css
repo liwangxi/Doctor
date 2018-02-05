@@ -557,6 +557,7 @@ section .content {
 }
 .content-right ul li {
   padding: 13px 0;
+  cursor: pointer;
 }
 .content-right ul li a {
   font-size: 14px;

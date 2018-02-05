@@ -107,7 +107,7 @@
     <section>
         <div class="content clearfix">
             <div class="content-left-all">
-                <div class="content-left content-tab1">
+                <div class="active content-left content-tab1">
                     <div class="content-left-item">
                         <h3>治疗肿瘤</h3>
                         <ul class="case-list">
@@ -404,7 +404,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="active content-left content-tab9">
+                <div class="content-left content-tab9">
                     <div class="content-left-item">
                         <h3>细胞改善女性生殖系统</h3>
                         <ul class="case-list">
@@ -434,31 +434,31 @@
                 <h3>治疗案例</h3>
                 <ul>
                     <li>
-                        <a></a>治疗肿瘤</a>
+                        <a href="al.html" class="active">治疗肿瘤</a>
                     </li>
                     <li>
-                        <a>改善肺功能</a>
+                        <a href="al_fgn.html">改善肺功能</a>
                     </li>
                     <li>
-                        <a>改善甲状腺功能</a>
+                        <a href="al_jzx.html">改善甲状腺功能</a>
                     </li>
                     <li>
-                        <a>改善肝功能</a>
+                        <a href="al_ggn.html">改善肝功能</a>
                     </li>
                     <li>
-                        <a>治疗骨关节疾病</a>
+                        <a href="al_ggj.html">治疗骨关节疾病</a>
                     </li>
                     <li>
-                        <a>治疗神经系统疾病</a>
+                        <a href="al_sjxt.html">治疗神经系统疾病</a>
                     </li>
                     <li>
-                        <a>治疗肌营养不良</a>
+                        <a href="al_jyy.html">治疗肌营养不良</a>
                     </li>
                     <li>
-                        <a>治疗糖尿病并发症</a>
+                        <a href="al_zlt.html">治疗糖尿病并发症</a>
                     </li>
                     <li>
-                        <a>改善女性生殖系统</a>
+                        <a href="al_nxsz.html">改善女性生殖系统</a>
                     </li>
                 </ul>
             </div>
@@ -533,11 +533,12 @@
 </body>
 <script src="js/jquery-1.7.2.js"></script>
 <script src="js/common.js"></script>
-<script>
+<!-- <script>
     $(".content-right ul li").click(function (){
         let num=$(this).index();
         console.log(num);
+        $(this).children().addClass("active").siblings(".active").removeClass("active");
         $(".content-left-all .content-left").eq(num).addClass("active").siblings(".active").removeClass("active");
     })
-</script>
+</script> -->
 </html>
